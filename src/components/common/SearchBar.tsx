@@ -44,6 +44,12 @@ export const SearchBar: React.FC<SearchBarProps> = ({
         },
         ".css-qve9l1-MuiInputBase-input-MuiOutlinedInput-input": {
           padding: "8.5px 14px"
+        },
+        ".css-1ooubvk": {
+          padding: "8.5px 14px"
+        },
+        ".css-fvgl9b": {
+          padding: "8.5px 14px"
         }
       }}
       InputProps={{

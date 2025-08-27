@@ -6,7 +6,7 @@ module.exports = {
     '^@/(.*)$': '<rootDir>/src/$1',  
   },
   transform: {
-    '^.+\\.(ts|tsx)$': 'ts-jest'  // Simplified - let ts-jest use default tsconfig
+    '^.+\\.(ts|tsx)$': 'ts-jest' 
   },
   globals: {
     'ts-jest': {
