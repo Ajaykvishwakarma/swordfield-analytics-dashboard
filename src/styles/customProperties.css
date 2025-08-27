@@ -1,0 +1,27 @@
+:root {
+  --app-bgcolor: #0E374B;
+  --text-color-0: #495057;
+  --text-color-1: #161a23;
+  --text-color-2: #999;
+  --link-color: #0066c0;
+  --error-color: #f02711;
+  --success-color: #008800;
+  --border-color-1: #c1c1c1;
+  --border-color-2: #ddd;
+  --dynamic-color: #fff;
+  --page-color: #f5f3ee;
+  --paper-color: #fff;
+  --paper-color-2: #fafafa;
+  --modal-header-color: #fafafa;
+  --table-header-color: #e1e1e1;
+  --primary-icon-color: #666;
+  --pop-color: #0E374B;
+  --highlight-color: #fff3cd;
+  --bg-color: #f2f2f2;
+  --icons-bg-color: #0E374B;
+  --paragraph: #495057;
+  --heading: #161a23;
+  --box-shadow-1: "1px 1px #ccc";
+  --modal-background: #f0e9e3;
+  --card-color-1: #e0e4e6;
+}

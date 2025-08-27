@@ -1,0 +1,54 @@
+ul.custom_tab_ul {
+  margin: 0px;
+  margin-left: 0px;
+  padding-inline-start: 0px;
+  width: 100%;
+  display: flex;
+  gap: 5px;
+}
+
+ul.custom_tab_ul.inline {
+
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+
+  /* -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px; */
+}
+
+ul.custom_tab_ul.inline,
+li.custom_tab_li {
+  display: inline-block;
+  margin-left: 0;
+  padding: 7px 15px;
+  border-radius: 50px;
+  font-family:  sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #8a8a8a;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  background: var(--card-color-1);
+
+}
+ul.custom_tab_ul.inline,
+li.custom_tab_li:hover {
+  background: #14353c;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+ul.custom_tab_ul.inline,
+li.custom_tab_li.selected {
+    /* border-bottom: 2px solid var(--app-bgcolor); */
+    /* color: #444; */
+    background: #14353c;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+}

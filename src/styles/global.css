@@ -1,0 +1,177 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: "Fixel", sans-serif; */
+  /* font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" */
+  /* font-family: Inter; */
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* scrollbar width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* scrollbar Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.css-1rr0e4l-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: rgba(250, 250, 250, 0.04);
+}
+
+body {
+  margin: 0;
+  color: var(--text-color-1);
+  background-color: var(--page-color);
+}
+
+/* remove arrows from number fields */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input {
+  background-color: inherit;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scroll {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.css-1jce54w-MuiDataGrid-root {
+  font-weight: 400 !important;
+}
+
+pre {
+  white-space: pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+}
+
+.preview-options-hover:hover {
+  color: #00339a;
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+}
+
+.css-81y1hl-MuiDataGrid-root {
+  font-size: "15px" !important;
+  font-weight: 500 !important;
+}
+
+.css-j9bis8 {
+  font-size: "15px" !important;
+  font-weight: 500 !important;
+}
+
+/* react data grid table body text  */
+
+.css-5g0j30-MuiDataGrid-root {
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
+
+/* mui phonenumber padding from left */
+.MuiPhoneNumber-flagButton {
+  margin-left: 9px !important;
+}
+
+/*
+register form phone number input label styles
+*/
+
+.register-form-phone-input .MuiFormLabel-root {
+  font-size: 17px !important;
+  color: var(--text-color-1) !important;
+  margin-bottom: 8px !important;
+  font-weight: 500 !important;
+}
+
+/* 
+register form phone number input styles
+*/
+.register-form-phone-input .MuiInputBase-root {
+  margin-top: 18px !important;
+}
+
+/* .table .th{
+    background-color: #00339a !important;
+} */
+
+.css-o1xwpy-MuiGrid-root {
+  display: -webkit-box !important;
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.skeleton-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
